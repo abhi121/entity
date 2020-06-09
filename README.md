@@ -20,3 +20,14 @@ database: postgresql
 3. Run server
 
 	$python manage.py runserver
+
+
+4. Api Endpoints:
+
+	/api/entities -> {CRUD}
+
+	/api/tags/{tag-name}/entites  -> Get - return all entites to a particular tag
+		
+	/api/discover/?name=?    -> Get - return all tags based on search params
+
+	
